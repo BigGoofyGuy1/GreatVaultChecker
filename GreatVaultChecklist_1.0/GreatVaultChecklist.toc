@@ -1,0 +1,10 @@
+## Interface: 110002  -- Adjust according to WoW version
+## Title: Great Vault Checklist
+## Notes: Tracks weekly Great Vault progress.
+## Author: YourName
+## Version: 1.0
+## SavedVariables: GVC_SavedProgress
+
+
+GreatVaultChecklist.xml
+GreatVaultChecklist.lua
