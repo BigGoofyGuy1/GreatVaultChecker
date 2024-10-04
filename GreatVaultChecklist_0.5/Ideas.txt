@@ -1,0 +1,10 @@
+Timer:
+Timer that tracks how long you take on each event
+Learns how long each activity takes you
+Sorts them by the shortest time
+
+Tracking:
+?/3 vault slots
+Completed/Threshold
+Highest and lowest Item Level based on what is completed
+

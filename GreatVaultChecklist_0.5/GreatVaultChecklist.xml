@@ -1,0 +1,64 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+    <!-- Define the frame structure -->
+    <Frame name="GreatVaultChecklistFrame" parent="UIParent" hidden="true" enableMouse="true" movable="true" frameStrata="HIGH">
+        <Size x="400" y="200"/>
+        <Anchors>
+            <Anchor point="CENTER"/>
+        </Anchors>
+        
+        <!-- Background and border style -->
+        <Backdrop bgFile="Interface\\DialogFrame\\UI-DialogBox-Background" 
+                  edgeFile="Interface\\DialogFrame\\UI-DialogBox-Border" 
+                  tile="true" tileSize="32" edgeSize="32">
+            <BackgroundInsets>
+                <AbsInset left="11" right="12" top="12" bottom="11"/>
+            </BackgroundInsets>
+        </Backdrop>
+
+        <!-- Title of the frame -->
+        <FontString name="$parentTitle" inherits="GameFontHighlightLarge" setAllPoints="false">
+            <Anchors>
+                <Anchor point="TOP" y="-10"/>
+            </Anchors>
+            <Text>Great Vault Checklist</Text>
+        </FontString>
+
+        <!-- Mythic+ Progress text -->
+        <FontString name="$parentMythicProgressText" inherits="GameFontNormal">
+            <Anchors>
+                <Anchor point="TOPLEFT" relativePoint="TOPLEFT" x="20" y="-60"/>
+            </Anchors>
+            <Text>Mythic+ Progress:</Text>
+        </FontString>
+
+        <!-- Raid Progress text -->
+        <FontString name="$parentRaidProgressText" inherits="GameFontNormal">
+            <Anchors>
+                <Anchor point="TOPLEFT" relativePoint="TOPLEFT" x="20" y="-90"/>
+            </Anchors>
+            <Text>Raid Progress:</Text>
+        </FontString>
+
+        <!-- Delve Progress text -->
+        <FontString name="$parentDelveProgressText" inherits="GameFontNormal">
+            <Anchors>
+                <Anchor point="TOPLEFT" relativePoint="TOPLEFT" x="20" y="-120"/>
+            </Anchors>
+            <Text>Delve Progress:</Text>
+        </FontString>
+
+        <!-- Close Button -->
+        <Button name="$parentCloseButton" inherits="UIPanelButtonTemplate">
+            <Size x="80" y="22"/>
+            <Anchors>
+                <Anchor point="BOTTOM" y="10"/>
+            </Anchors>
+            <Text>Close</Text>
+            <Scripts>
+                <OnClick>
+                    self:GetParent():Hide();
+                </OnClick>
+            </Scripts>
+        </Button>
+    </Frame>
+</Ui>
