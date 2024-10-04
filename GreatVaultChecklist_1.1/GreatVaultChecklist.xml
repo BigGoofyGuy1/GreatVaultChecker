@@ -1,0 +1,117 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/">
+    <Frame name="GreatVaultChecklistFrame" parent="UIParent" frameStrata="MEDIUM" enableMouse="true" movable="true" hidden="true" toplevel="true" inherits="BackdropTemplate,BasicFrameTemplateWithInset">
+        <Size>
+            <AbsDimension x="525" y="160"/>
+        </Size>
+        <Anchors>
+            <Anchor point="CENTER"/>
+        </Anchors>
+
+        <!-- Title -->
+        <Layers>
+            <Layer level="OVERLAY">
+                <FontString name="$parentTitle" inherits="GameFontHighlightLarge" text="Great Vault Checklist">
+                    <Anchors>
+                        <Anchor point="TOP" relativePoint="TOP" x="0" y="-5"/>
+                    </Anchors>
+                </FontString>                
+
+                <!-- Table Headers -->
+                <FontString name="$parentHeaderCompletion" inherits="GameFontNormal" text="Completion">
+                    <Anchors>
+                        <Anchor point="TOPLEFT" relativePoint="TOPLEFT" x="125" y="-35"/>
+                    </Anchors>
+                </FontString>
+
+                <FontString name="$parentHeaderVaultSlots" inherits="GameFontNormal" text="Vault Slots Unlocked">
+                    <Anchors>
+                        <Anchor point="TOPLEFT" relativePoint="TOPLEFT" x="225" y="-35"/>
+                    </Anchors>
+                </FontString>
+
+                <FontString name="$parentHeaderRewards" inherits="GameFontNormal" text="Rewards">
+                    <Anchors>
+                        <Anchor point="TOPLEFT" relativePoint="TOPLEFT" x="400" y="-35"/>
+                    </Anchors>
+                </FontString>
+
+                <!-- Raid Row -->
+                <FontString name="$parentRaidProgress" inherits="GameFontNormal" text="Raid Progress: ">
+                    <Anchors>
+                        <Anchor point="TOPLEFT" relativePoint="TOPLEFT" x="25" y="-65"/>
+                    </Anchors>
+                </FontString>
+
+                <FontString name="$parentRaidCompletion" inherits="GameFontNormal">
+                    <Anchors>
+                        <Anchor point="TOPLEFT" relativePoint="TOPLEFT" x="145" y="-65"/>
+                    </Anchors>
+                </FontString>
+                
+                <FontString name="$parentRaidVaultSlots" inherits="GameFontNormal">
+                    <Anchors>
+                        <Anchor point="TOPLEFT" relativePoint="TOPLEFT" x="270" y="-65"/>
+                    </Anchors>
+                </FontString>
+
+                <FontString name="$parentRaidRewards" inherits="GameFontNormal">
+                    <Anchors>
+                        <Anchor point="TOPLEFT" relativePoint="TOPLEFT" x="380" y="-65"/>
+                    </Anchors>
+                </FontString>
+
+                <!-- Mythic+ Row -->
+                <FontString name="$parentMythicProgress" inherits="GameFontNormal" text="Mythic Progress: ">
+                    <Anchors>
+                        <Anchor point="TOPLEFT" relativePoint="TOPLEFT" x="25" y="-95"/>
+                    </Anchors>
+                </FontString>
+
+                <FontString name="$parentMythicCompletion" inherits="GameFontNormal">
+                    <Anchors>
+                        <Anchor point="TOPLEFT" relativePoint="TOPLEFT" x="145" y="-95"/>
+                    </Anchors>
+                </FontString>
+                
+                <FontString name="$parentMythicVaultSlots" inherits="GameFontNormal">
+                    <Anchors>
+                        <Anchor point="TOPLEFT" relativePoint="TOPLEFT" x="270" y="-95"/>
+                    </Anchors>
+                </FontString>
+
+                <FontString name="$parentMythicRewards" inherits="GameFontNormal">
+                    <Anchors>
+                        <Anchor point="TOPLEFT" relativePoint="TOPLEFT" x="380" y="-95"/>
+                    </Anchors>
+                </FontString>
+
+                <!-- Delve Row -->
+                <FontString name="$parentDelveProgress" inherits="GameFontNormal" text="Delve Progress: ">
+                    <Anchors>
+                        <Anchor point="TOPLEFT" relativePoint="TOPLEFT" x="25" y="-125"/>
+                    </Anchors>
+                </FontString>
+
+                <FontString name="$parentDelveCompletion" inherits="GameFontNormal">
+                    <Anchors>
+                        <Anchor point="TOPLEFT" relativePoint="TOPLEFT" x="145" y="-125"/>
+                    </Anchors>
+                </FontString>
+                
+                <FontString name="$parentDelveVaultSlots" inherits="GameFontNormal">
+                    <Anchors>
+                        <Anchor point="TOPLEFT" relativePoint="TOPLEFT" x="270" y="-125"/>
+                    </Anchors>
+                </FontString>
+
+                <FontString name="$parentDelveRewards" inherits="GameFontNormal">
+                    <Anchors>
+                        <Anchor point="TOPLEFT" relativePoint="TOPLEFT" x="380" y="-125"/>
+                    </Anchors>
+                </FontString>
+
+            </Layer>
+        </Layers>
+
+    </Frame>
+</Ui>

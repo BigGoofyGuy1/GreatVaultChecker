@@ -1,0 +1,13 @@
+## Interface: 110002
+## Title: Great Vault Checklist
+## Notes: Tracks weekly Great Vault progress.
+## Author: BigGoofyGuy
+## Version: 1.0
+## SavedVariables: GVC_SavedProgress
+
+
+GreatVaultChecklist.xml
+MythicRewards.lua
+DelveRewards.lua
+RaidRewards.lua
+GreatVaultChecklist.lua
